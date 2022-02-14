@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextamplifiedimranst",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\_src\\imrans-test-project\\imrans-test-project2\\next-amplified-imrans-test-project\\amplify\\backend\\api\\nextamplifiedimranst\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-02-21T22:50:35.735Z",
+      "keyDescription": ""
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authnextamplifiedimranst156c8682"
+      }
+    ]
+  }
+}

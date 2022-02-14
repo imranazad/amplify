@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "imranstestproject2",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\_src\\imrans-test-project\\imrans-test-project2\\amplify\\backend\\api\\imranstestproject2\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-02-21T22:18:48.409Z",
+      "keyDescription": ""
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authimranstestproject27a5e5c5c"
+      }
+    ]
+  }
+}
