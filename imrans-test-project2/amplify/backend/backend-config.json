@@ -1,6 +1,6 @@
 {
   "auth": {
-    "imranstestproject27a5e5c5c": {
+    "nextamplifiedimranst156c8682": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -26,7 +26,7 @@
     }
   },
   "api": {
-    "imranstestproject2": {
+    "nextamplifiedimranst": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -35,7 +35,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "apiKeyExpirationDate": "2022-02-21T22:18:48.409Z",
+              "apiKeyExpirationDate": "2022-02-21T22:50:35.735Z",
               "description": ""
             }
           },
@@ -43,12 +43,19 @@
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authimranstestproject27a5e5c5c"
+                "userPoolId": "authnextamplifiedimranst156c8682"
               }
             }
           ]
         }
       }
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
     }
   }
 }
