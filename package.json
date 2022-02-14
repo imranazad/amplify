@@ -1,0 +1,28 @@
+{
+    "name": "next-amplified-imrans-test-project",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "dependencies": {
+        "@aws-amplify/ui-react": "^1.2.26",
+        "aws-amplify": "^4.3.14",
+        "next": "12.0.10",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^7.16.15",
+        "@wdio/cucumber-framework": "^7.16.14",
+        "@wdio/local-runner": "^7.16.15",
+        "@wdio/spec-reporter": "^7.16.14",
+        "chromedriver": "^98.0.0",
+        "eslint": "8.9.0",
+        "eslint-config-next": "12.0.10",
+        "wdio-chromedriver-service": "^7.2.8"
+    }
+}
