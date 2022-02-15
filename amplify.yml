@@ -17,8 +17,9 @@ test:
     preTest:
       commands:
         - npm ci
-        - wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-        - yum install -y ./google-chrome-stable_current_*.rpm
+        - sudo apt-get install libxss1 libappindicator1 libindicator7
+        - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        - sudo apt install ./google-chrome*.deb
     test:
       commands:
         - 'npx wdio run ./wdio.conf.js'
