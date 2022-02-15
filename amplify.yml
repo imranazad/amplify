@@ -17,7 +17,6 @@ test:
     preTest:
       commands:
         - npm ci
-
     test:
       commands:
         - 'npx wdio run ./wdio.conf.js'
