@@ -21,9 +21,6 @@ test:
     test:
       commands:
         - 'npx wdio run ./wdio.conf.js'
-    postTest:
-      commands:
-        - npx pm2 kill
   artifacts:
     baseDirectory: /
     configFilePath: '**/mochawesome.json'
